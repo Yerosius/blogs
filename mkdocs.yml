@@ -13,6 +13,7 @@ copyright: Copyright &copy; 2025 椰萝Yerosius All Rights Reserved.
 theme:
   name: material
   language: zh
+  custom_dir: docs/overrides
   icon: 
     logo: material/school
     repo: fontawesome/brands/github
@@ -149,26 +150,19 @@ plugins:
   - toggle-sidebar: 
       theme: material 
       toggle_button: all
-  - mike:
-      alias_type: symlink
-      redirect_template: null
-      deploy_prefix: ''
-      canonical_version: null
-      version_selector: true
-      css_dir: css
-      javascript_dir: js
   - git-authors
   - git-committers:
       repository: yerosius/blogs
       branch: main
+  - offline
 
 extra:
+  comments:
+    enabled: true
   consent:
     title: 隐私提示
     description: >- 
       本站使用 Google Analytics 收集和分析用户访问数据，以帮助我们优化网站内容和服务。Google Analytics 可能会收集您的 IP 地址、设备信息、浏览器类型、访问时间及访问页面等非个人身份信息。我们不会将收集到的数据与您的个人身份信息进行关联。继续使用本网站即表示您同意 Google Analytics 的数据收集与使用。
-  version:
-    provider: mike
   status:
     new: 新内容
     deprecated: 已弃用
