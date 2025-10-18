@@ -1,17 +1,4 @@
-# Welcome to MkDocs
+# 椰萝Yerosius的博客
+欢迎来到椰萝Yerosius的博客，本站主要收录技术手册、感悟心得、随笔等内容。
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+本站内容仅供个人使用。当然，如果你感兴趣且有时间，欢迎来看看，我的朋友！

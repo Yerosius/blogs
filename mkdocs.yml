@@ -1,6 +1,6 @@
 site_name: 椰萝Yerosius的博客
 site_description: 椰萝Yerosius，主修计算机科学，主要记录技术文档、随笔、感悟等。
-site_url: https://yerosius.github.io/blogs
+site_url: https://yerosius.github.io/
 site_author: 椰萝Yerosius
 strict: false
 
@@ -14,7 +14,8 @@ theme:
   name: material
   language: zh
   icon: 
-    logo: 'material/school'
+    logo: material/school
+    repo: fontawesome/brands/github
 
   include_search_page: false
   search_index_only: true
@@ -47,6 +48,8 @@ theme:
     - content.action.edit
     - content.action.view
     - content.code.annotate
+    - content.code.select
+    - content.code.select
     - content.tooltips
     - content.footnote.tooltips
     - navigation.footer
@@ -58,6 +61,7 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.sections
+    - navigation.path
     - search.suggest
     - search.highlight
     - search.share
@@ -124,8 +128,14 @@ markdown_extensions:
   - pymdownx.tilde 
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.highlight:
+      linenums: true
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
 
 plugins:
+  - tags
   - search
   - mermaid2
   - glightbox
@@ -139,14 +149,35 @@ plugins:
   - toggle-sidebar: 
       theme: material 
       toggle_button: all
+  - mike:
+      alias_type: symlink
+      redirect_template: null
+      deploy_prefix: ''
+      canonical_version: null
+      version_selector: true
+      css_dir: css
+      javascript_dir: js
+  - git-authors
+  - git-committers:
+      repository: yerosius/blogs
+      branch: main
 
 extra:
+  consent:
+    title: 隐私提示
+    description: >- 
+      本站使用 Google Analytics 收集和分析用户访问数据，以帮助我们优化网站内容和服务。Google Analytics 可能会收集您的 IP 地址、设备信息、浏览器类型、访问时间及访问页面等非个人身份信息。我们不会将收集到的数据与您的个人身份信息进行关联。继续使用本网站即表示您同意 Google Analytics 的数据收集与使用。
+  version:
+    provider: mike
   status:
     new: 新内容
     deprecated: 已弃用
     draft: 草稿
   pagetime: 'on'
   githash: ''
+  analytics:
+    provider: google
+    property: G-Y227H1980C
 
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
