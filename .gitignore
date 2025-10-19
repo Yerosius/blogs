@@ -2,3 +2,4 @@ venv/
 site/
 encryptcontent.cache
 docs/private
+.cache/

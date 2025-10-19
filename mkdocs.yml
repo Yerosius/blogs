@@ -14,8 +14,9 @@ theme:
   name: material
   language: zh
   custom_dir: docs/overrides
+  logo: assets/logo.png
+  favicon: assets/images/favicon.ico
   icon: 
-    logo: material/school
     repo: fontawesome/brands/github
 
   include_search_page: false
