@@ -18,7 +18,7 @@ theme:
     logo: material/school
     repo: fontawesome/brands/github
 
-  include_search_page: false
+  # include_search_page: false
   search_index_only: true
 
   font: 
@@ -137,7 +137,11 @@ markdown_extensions:
 
 plugins:
   - tags
-  - search
+  - search:
+      lang:
+        - en
+        - zh
+      separator: '[\s\u200b\-]'
   - mermaid2
   - glightbox
   - git-revision-date-localized:
@@ -155,6 +159,8 @@ plugins:
       repository: yerosius/blogs
       branch: main
   - offline
+  - encryptcontent:
+      search_index: 'encrypted'
 
 extra:
   comments:
