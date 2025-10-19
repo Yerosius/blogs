@@ -18,7 +18,7 @@ theme:
     logo: material/school
     repo: fontawesome/brands/github
 
-  # include_search_page: false
+  include_search_page: false
   search_index_only: true
 
   font: 
@@ -160,7 +160,16 @@ plugins:
       branch: main
   - offline
   - encryptcontent:
-      search_index: 'encrypted'
+      search_index: 'dynamically'
+      default_language: zh
+      encrypted_something:
+        mkdocs-encrypted-toc: [nav, class]
+      title_prefix: "[加密]"
+      summary: "🔒 加密内容"
+      placeholder: "请输入密码"
+      password_button_text: "提交"
+      decryption_failure_message: "密码错误"
+      encryption_info_message: "请输入密码以访问本页内容。若有异议，请联系管理员。"
 
 extra:
   comments:
