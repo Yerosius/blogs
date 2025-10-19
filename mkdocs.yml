@@ -18,6 +18,7 @@ theme:
   favicon: assets/images/favicon.ico
   icon: 
     repo: fontawesome/brands/github
+  repo_stats: true
 
   include_search_page: false
   search_index_only: true
@@ -47,6 +48,7 @@ theme:
 
   features:
     - announce.dismiss
+    - content.action
     - content.action.edit
     - content.action.view
     - content.code.annotate
