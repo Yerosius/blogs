@@ -1,7 +1,7 @@
-# 站务备忘录
+# 备忘
 
-## 对文章加密
-- 插件：`mkdocs-encryptcontent-plugin`插件
+## 文章加密
+- 插件：`mkdocs-encryptcontent-plugin`
 - 在 md 文件顶部添加 YAML Front Matter：
 ```md
 ---
@@ -19,7 +19,7 @@ status: <状态>
 - 可设置3种状态：`new`(新内容),`deprecated`(已弃用),`draft`(草稿)
 
 ## Github 提示框
-- 插件：`Admonitions`扩展
+- 插件：`Admonitions`
 ```md
 !!! <类型>["标题"]
     1个缩进开始正文内容
