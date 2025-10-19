@@ -137,6 +137,11 @@ markdown_extensions:
       pygments_lang_class: true
 
 plugins:
+  - git-revision-date-localized:
+      type: datetime
+      fallback_to_build_date: true
+      enable_creation_date: true
+      timezone: Asia/Shanghai
   - tags
   - search:
       lang:
@@ -145,10 +150,6 @@ plugins:
       separator: '[\s\u200b\-]'
   - mermaid2
   - glightbox
-  - git-revision-date-localized:
-      type: date
-      fallback_to_build_date: true
-      enable_creation_date: true
   - minify:
       minify_html: true
   - awesome-pages
@@ -162,7 +163,6 @@ plugins:
   - offline
   - encryptcontent:
       search_index: 'dynamically'
-      default_language: zh
       encrypted_something:
         mkdocs-encrypted-toc: [nav, class]
       title_prefix: "[加密]"
