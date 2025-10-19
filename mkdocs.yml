@@ -51,7 +51,7 @@ theme:
     - content.action.view
     - content.code.annotate
     - content.code.select
-    - content.code.select
+    - content.code.copy
     - content.tooltips
     - content.footnote.tooltips
     - navigation.footer
@@ -62,16 +62,14 @@ theme:
     - navigation.prune
     - navigation.tracking
     - navigation.tabs
+    - navigation.top
+    - navigation.back_to_top
     - navigation.sections
     - navigation.path
     - search.suggest
     - search.highlight
     - search.share
-    - content.code.copy
     - content.tabs.link
-    - navigation.indexes
-    - navigation.top
-    - navigation.back_to_top
     - toc.follow
 
 markdown_extensions:
@@ -192,5 +190,8 @@ extra:
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - stylesheets/extra.css
 
 site_dir: site

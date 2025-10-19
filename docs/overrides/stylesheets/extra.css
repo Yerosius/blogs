@@ -1,0 +1,24 @@
+.md-header,
+.md-tabs {
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+[data-md-color-scheme="slate"] .md-header,
+[data-md-color-scheme="slate"] .md-tabs {
+  background-color: rgba(34, 39, 46, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+
+.md-nav__link[for] {
+  color: var(--md-default-fg-color) !important;
+}
+
+.giscus-container {
+  width: 40em;
+  max-width: 100%;
+  margin: 0 auto;
+}
