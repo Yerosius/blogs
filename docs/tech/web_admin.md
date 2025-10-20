@@ -8,6 +8,7 @@
 password: very_secret_password
 ---
 ```
+注意设置密码的文档，一定要添加到`.gitignore`中，否则将造成密码泄露。
 
 ## 设置文档状态
 - 在 md 文件顶部添加 YAML Front Matter：
