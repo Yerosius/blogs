@@ -155,8 +155,6 @@ plugins:
   - offline
   - encryptcontent:
       search_index: 'dynamically'
-      encrypted_something:
-        mkdocs-encrypted-toc: [nav, class]
       title_prefix: "[加密]"
       summary: "🔒 加密内容"
       placeholder: "请输入密码"
