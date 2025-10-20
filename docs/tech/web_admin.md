@@ -1,4 +1,4 @@
-# 备忘
+# 站务备忘
 
 ## 文章加密
 - 插件：`mkdocs-encryptcontent-plugin`
