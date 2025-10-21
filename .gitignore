@@ -2,4 +2,4 @@ venv/
 site/
 encryptcontent.cache
 docs/personal
-.cache/
+.cache
