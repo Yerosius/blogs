@@ -1,5 +1,8 @@
 # 站务备忘
 
+## 目录结构
+在目录下新建`index.md`，即为该目录的默认根目录文件。
+
 ## 文章加密
 - 插件：`mkdocs-encryptcontent-plugin`
 - 在 md 文件顶部添加 YAML Front Matter：
