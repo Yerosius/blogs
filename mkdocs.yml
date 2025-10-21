@@ -157,10 +157,10 @@ plugins:
       search_index: 'dynamically'
       title_prefix: "[加密]"
       summary: "🔒 加密内容"
-      placeholder: "请输入密码"
+      placeholder: "请输入密码(按回车提交)"
       password_button_text: "提交"
       decryption_failure_message: "密码错误"
-      encryption_info_message: "请输入密码以访问本页内容。若有异议，请联系管理员。"
+      encryption_info_message: "本页内容已加密，请输入密码后解锁。若需申请访问，请使用邮件联系管理员。"
 
 extra:
   comments:
