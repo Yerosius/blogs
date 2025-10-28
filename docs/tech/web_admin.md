@@ -1,5 +1,9 @@
 # 站务备忘
 
+## 本地启动 & 远程部署
+- 本地启动：`mkdocs serve`
+- 部署到Github Pages：`mkdocs gh-deploy`
+
 ## 目录结构
 在目录下新建`index.md`，即为该目录的默认根目录文件。
 
