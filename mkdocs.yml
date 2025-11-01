@@ -8,7 +8,7 @@ repo_name: 'Yerosius/blogs'
 repo_url: 'https://github.com/Yerosius/blogs'
 edit_uri: edit/main/docs/
 
-copyright: Copyright &copy; 2025 椰萝Yerosius All Rights Reserved.
+copyright: Copyright &copy; 2025 椰萝Yerosius All Rights Reserved. <br/> 版权所有，转载需获得许可，附加条款亦可能应用。本站全部内容禁止商业使用。
 
 theme:
   name: material
